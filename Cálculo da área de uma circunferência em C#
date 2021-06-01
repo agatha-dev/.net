@@ -1,0 +1,25 @@
+# .net
+
+using System; 
+using System.collections. generic;
+using System.Linq;
+using System.text;
+using System.Threading.Task;
+
+namespace consoleapplication1
+{
+    class Program
+    {
+        Static void  Main(string[] args)
+        {
+            console.write("Informe o valor do raio do círculo");
+            double raio = convert.todouble(console.read());
+            Console.write("\n");
+            console.write("A área do círculo é: ");
+            console.write(match.PI * Match.Pow(raio, 2));
+            console.ReadLine();
+
+        }
+    }
+}    
+     
