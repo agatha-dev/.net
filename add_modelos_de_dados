@@ -1,0 +1,24 @@
+# .net
+
+using System.Xml.XPath;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
+using System;
+namespace RazorPagesMovie.models
+{
+    public class movie
+    {
+     public int id { get; set; }
+     public string Title { get; set; }
+
+     [DataType(XmlDataType.date)]
+     public DataTime Releasedate { get; set; }
+     public string Genre {get; set; }
+     public decimal price { get; set; }
+      
+     }
+      {
+          console.writeline('hello word!');
+      }  
+}
+}
