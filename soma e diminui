@@ -1,0 +1,22 @@
+using System;
+using System.Globalization;
+
+namespace course{
+    class program {
+        static void Main(string[] args) {
+
+            int A, B, C, soma;
+
+             A = int.Parse(Console.ReadLine());
+             B = int.Parse(Console.ReadLine());
+             C = int.Parse(Console.ReadLine());
+
+            soma = A + B - C;
+
+            Console.WriteLine("SOMA = " + soma);
+
+        }
+
+    }
+
+}
